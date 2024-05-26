@@ -2,7 +2,6 @@
 
   <cache alias="getBooks"> 
     <key-type>com.test.test.model.BookReq</key-type> 
-    <value-type>com.test.test.Entity.BookEntity</value-type> 
     <resources>
       <heap unit="entries">20</heap> 
       <offheap unit="MB">10</offheap> 

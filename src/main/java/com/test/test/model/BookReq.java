@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class BookReq extends BaseReq {
+public class BookReq extends BaseReq implements java.io.Serializable {
     
     @NotBlank
     private String title;

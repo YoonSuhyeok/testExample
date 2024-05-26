@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "Book")
-public class BookEntity {
+public class BookEntity implements java.io.Serializable {
     
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
