@@ -1,9 +1,9 @@
-package com.test.model;
+package com.test.test.model;
 
 import lombok.Getter;
 
 @Getter
-public class Title {
+public class BookDto {
     
     private String content;
     
